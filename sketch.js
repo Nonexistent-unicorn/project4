@@ -1,14 +1,13 @@
-let img;
-function preload() {
+let mgr;
 
-}
 function setup() {
-  createCanvas(windowWidth,windowHeight);
-  
+createCanvas(windowWidth,windowHeight)
+mgr = new sceneManager();
+mgr.wire()
+mgr.showScene(depression);
 
 }
 
 function draw() {
-  background(0)
-  
+mgr.draw();  
 }
