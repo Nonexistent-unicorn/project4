@@ -1,15 +1,16 @@
-function ED(){
-    let img;
-    this.preload = function() {
-    img = loadImage("assets/suicide.png");
-    }
-    this.enter = function() {
-        createCanvas(windowWidth,windowHeight)
-        //background(0)
+function suicide(){
+    let suicideImage;
+    /*this.preload = function() {
+    suicideImage = loadImage("assets/suicide.png");
+    }*/
+    this.setup = function() {
+        //createCanvas(windowWidth,windowHeight)
+        suicideImage = loadImage("assets/suicide.png");
     }
     
     this.draw = function() {
-      image(img,500,150,500,500);
+        background(0)
+      image(suicideImage,500,150,500,500);
     }
     
     this.mouseClicked = function() {

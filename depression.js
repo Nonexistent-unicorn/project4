@@ -1,19 +1,20 @@
 function depression(){
-let img;
-this.preload = function() {
-img = loadImage("assets/depression.png");
-}
+let depressionImage;
+/*this.preload = function() {
+
+}*/
 this.setup = function() {
-    createCanvas(windowWidth,windowHeight)
-    background(0)
+    //createCanvas(windowWidth,windowHeight)
+    depressionImage = loadImage("assets/depression.png");
 }
 
 this.draw = function() {
-  image(img,500,150,500,500);
+    background(0)
+  image(depressionImage,500,150,500,500);
 }
 
 this.mouseClicked = function() {
-  this.sceneManager.showScene(anxiety)
+  this.sceneManager.showScene(anxiety);
 
 }
 }
