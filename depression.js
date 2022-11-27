@@ -1,5 +1,5 @@
 function depression(){
-let content = 'I AM ENOUGH';
+let content = 'YOU ARE JUST LAZY';
 let yStart = 0;
 let customFont; 
 let depressionImage;
@@ -10,6 +10,7 @@ this.setup = function() {
     //createCanvas(windowWidth,windowHeight)
     textFont(customFont);
     textAlign(CENTER, CENTER);
+    textSize(500);
     depressionImage = loadImage("assets/depression.png");
 }
 
