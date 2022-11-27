@@ -14,7 +14,7 @@ function ED(){
     }
     
     this.mouseClicked = function() {
-      this.sceneManager.showScene(ED)
+      this.sceneManager.showScene(suicide)
     
     }
     }

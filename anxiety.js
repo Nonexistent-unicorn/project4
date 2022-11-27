@@ -10,7 +10,7 @@ function anxiety(){
   
   this.draw = function() {
     background(0)
-    image(anxietyImage,500,150,500,500);
+    image(anxietyImage,500,50,500,700);
   }
   
   this.mouseClicked = function() {

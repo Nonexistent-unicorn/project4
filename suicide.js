@@ -10,7 +10,7 @@ function suicide(){
     
     this.draw = function() {
         background(0)
-      image(suicideImage,500,150,500,500);
+      image(suicideImage,450,100,700,700);
     }
     
     this.mouseClicked = function() {
