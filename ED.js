@@ -10,7 +10,7 @@ function ED(){
         //createCanvas(windowWidth,windowHeight)
         textFont(customFont);
         textAlign(CENTER, CENTER);
-        textSize(500);
+        textSize(20);
         EDImage = loadImage("assets/ED.png");
     }
     

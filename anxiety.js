@@ -10,7 +10,7 @@ function anxiety(){
     //createCanvas(windowWidth,windowHeight)
     textFont(customFont);
     textAlign(CENTER,CENTER);
-    textSize(100);
+    textSize(20);
     anxietyImage = loadImage("assets/anxiety.png");
   }
   
