@@ -1,14 +1,14 @@
 function anxiety(){
   let content = 'CALM DOWN, ITS NOT A BIG DEAL';
   let yStart = 0;
-  let customFont;
+  //let customFont;
   let anxietyImage;
   
-  customFont = loadFont('AlexBrush-Regular.ttf');
+  //customFont = loadFont('AlexBrush-Regular.ttf');
 
   this.setup = function() {
     //createCanvas(windowWidth,windowHeight)
-    textFont(customFont);
+    //textFont(customFont);
     textAlign(CENTER,CENTER);
     textSize(20);
     anxietyImage = loadImage("assets/anxiety.png");
