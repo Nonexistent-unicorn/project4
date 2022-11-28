@@ -14,7 +14,7 @@ function suicide(){
     }
     
     this.mouseClicked = function() {
-      this.sceneManager.showScene(pie)
+      this.sceneManager.showScene(depression)
     
     }
     }

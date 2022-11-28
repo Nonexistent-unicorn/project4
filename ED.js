@@ -1,14 +1,14 @@
 function ED(){
     let content = 'YOU LOOK SO HEALTHY, THOUGH';
     let yStart = 0;
-    let customFont; 
+    //let customFont; 
     let EDImage;
 
-    customFont = loadFont('AlexBrush-Regular.ttf');
+    //customFont = loadFont('AlexBrush-Regular.ttf');
 
     this.setup = function() {
         //createCanvas(windowWidth,windowHeight)
-        textFont(customFont);
+        //textFont(customFont);
         textAlign(CENTER, CENTER);
         textSize(20);
         EDImage = loadImage("assets/ED.png");

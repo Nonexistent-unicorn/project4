@@ -1,17 +1,18 @@
 function depression(){
 let content = 'YOU ARE JUST LAZY';
 let yStart = 0;
-let customFont; 
+//let customFont; 
 let depressionImage;
 
-customFont = loadFont('AlexBrush-Regular.ttf');
+
+
 
 this.setup = function() {
     //createCanvas(windowWidth,windowHeight)
-    
-    textFont(customFont);
+    //customFont = loadFont('AlexBrush-Regular.ttf');
+    textSize(30);
     textAlign(CENTER, CENTER);
-    textSize(20);
+    noStroke;
     depressionImage = loadImage("assets/depression.png");
 }
 
