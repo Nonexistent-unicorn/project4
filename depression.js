@@ -1,5 +1,4 @@
 function depression(){
-let div;
 let oneText = "15.2% of people\nages 8-25\nhave depression"
 let twoText = "Women are\ntwice as likely\nas men\nto have depression"
 let content = 'YOU ARE JUST LAZY';
